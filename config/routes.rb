@@ -1,4 +1,44 @@
 Quizz::Application.routes.draw do
+  get "questionnaire/new"
+
+  get "questionnaire/create"
+
+  get "questionnaire/show"
+
+  get "questionnaire/list"
+
+  get "questionnaire/update"
+
+  get "questionnaire/edit"
+
+  get "questionnaire/delete"
+
+  get "questionnaire/destroy"
+
+  get "categorie/new"
+
+  get "categorie/create"
+
+  get "categorie/show"
+
+  get "categorie/index"
+
+  get "categorie/list"
+
+  get "categorie/update"
+
+  get "utilisateur/new"
+
+  get "utilisateur/list"
+
+  get "utilisateur/show"
+
+  get "utilisateur/create"
+
+  get "utilisateur/edit"
+
+  get "utilisateur/update"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
