@@ -1,2 +1,5 @@
 <h1>Categorie#list</h1>
-<p>Find me in app/views/categorie/list.html.erb</p>
+
+<% @categories.each do |categorie| %>
+<%= categorie.nom %> (popularite <%= categorie.popularite%>) <br/>
+<% end %>

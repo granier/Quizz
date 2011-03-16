@@ -1,0 +1,2 @@
+module ScorecategorieHelper
+end

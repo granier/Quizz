@@ -11,5 +11,10 @@ class Utilisateur < ActiveRecord::Base
   attr_accessible :nom, :mail, :mdp, :score_global, :statut, :mdp_confirmation
   
   
+def self.authenticate(email, mdp)
+  utilisateur = Utilisateur.find_by_mail(email)
+  return nil if utilisateur.nil?
+  return utilisateur if utilisateur.mdp = mdp
+end
   
 end

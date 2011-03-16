@@ -13,6 +13,7 @@ class UtilisateurController < ApplicationController
 
   def create
     @utilisateur = Utilisateur.new(params[:utilisateur])
+    @utilisateur.score_global=0
     if @utilisateur.save
       redirect_to :action => 'list'
     else

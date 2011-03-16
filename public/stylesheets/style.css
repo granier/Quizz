@@ -1,0 +1,8 @@
+body{background-color:#FFBB11}
+*{font-size:12pt ;color:#000000}
+h1{font-size:150%; font-weight:bold; color:#FF2200}
+h2{font-size:120%; text-decoration:underline; color:#6688FF}
+a{text-decoration:underline; color:#66BB55}
+a:hover{text-decoration:underline; font-weight:bold; color:#66BB55}
+a:visited{}
+

@@ -1,0 +1,18 @@
+<h1>Connexion</h1>
+
+<%= form_for(:session, :url => sessions_path) do |f| %>
+<div class ="field">
+  <%= f.label :mail%><br/>
+  <%= f.text_field :mail%>
+</div>
+
+<div class ="field">
+  <%= f.label :mdp%><br/>
+  <%= f.password_field :mdp%>
+</div>
+<div class ="actions">
+  <%= f.submit "Connexion"%>
+</div>
+<a href="home">retour</a>
+<%end%>
+
